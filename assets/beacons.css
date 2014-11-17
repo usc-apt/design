@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar {
+  width: 20%;
+  min-width: 180px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#pusher {
+  width: 20%;
+  min-width: 180px;
+  height: 100vh;
+  float: left;
+  clear: left;
+  background: #ccc;
+}
+
+#container {
+  width: 100%;
+  background: #900;
+}
+
+#main {
+  float: left;
+  width: 75%;
+}
